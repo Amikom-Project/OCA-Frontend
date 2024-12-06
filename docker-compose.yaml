@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+  ocafrontend:
+    image: amikom/ocafrontend
+    container_name: ocafrontend
+    restart: always
+    ports:
+      - "4017:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+networks:
+  default:
+    external: true
+    name: docker_network

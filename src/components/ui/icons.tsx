@@ -1,0 +1,42 @@
+import {
+  Building,
+  Database,
+  LayoutDashboard,
+  Plus,
+  Trash,
+  UniversityIcon,
+  User,
+  UserRound,
+  LucideIcon,
+  Minus,
+  UserCircle2,
+  Edit,
+  Save,
+  ArrowLeft,
+  AlertCircle,
+  CircleUser,
+  CalendarIcon,
+  MenuIcon,
+} from 'lucide-react';
+
+export type Icon = LucideIcon;
+
+export const Icons = {
+  dashboard: LayoutDashboard,
+  plus: Plus,
+  trash: Trash,
+  building: Building,
+  database: Database,
+  university: UniversityIcon,
+  user: User,
+  userRound: UserRound,
+  minus: Minus,
+  userCircle: UserCircle2,
+  edit: Edit,
+  save: Save,
+  left: ArrowLeft,
+  alert: AlertCircle,
+  usercircle: CircleUser,
+  calender: CalendarIcon,
+  menu: MenuIcon,
+};

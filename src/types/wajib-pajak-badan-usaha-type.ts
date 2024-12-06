@@ -1,0 +1,43 @@
+export type TWajibPajakBadanUsahaFormSchema = {
+  nama_badan_usaha: string;
+  email: string;
+  file_foto_identitas_badan: string;
+  npwp: string;
+  nama_npwp: string;
+  provinsi_npwp: string;
+  kabupaten_npwp: string;
+  file_foto_npwp: string;
+  nama_bank: string;
+  no_rekening: string;
+  nama_rekening: string;
+  file_foto_bukti_rekening: string;
+  nama_narahubung: string;
+  kontak_narahubung: string;
+  ada_skb_pph23: string;
+  masa_berlaku_bebas_pph23: Date;
+  file_surat_bebas_pph23: string;
+  status_pkp: string;
+};
+
+export type TWajibPajakBadanUsahaModel = {
+  kode_wajib_pajak_badan_usaha: string;
+  nama_badan_usaha: string;
+  email: string;
+  file_foto_identitas_badan: string;
+  npwp: string;
+  nama_npwp: string;
+  provinsi_npwp: string;
+  kabupaten_npwp: string;
+  file_foto_npwp: string;
+  nama_bank: string;
+  no_rekening: string;
+  nama_rekening: string;
+  file_foto_bukti_rekening: string;
+  nama_narahubung: string;
+  kontak_narahubung: string;
+  ada_skb_pph23: string;
+  masa_berlaku_bebas_pph23?: string;
+  file_surat_bebas_pph23: string;
+  status_pkp: string;
+  tanggal_input: Date;
+};

@@ -1,0 +1,48 @@
+export type TPPh23FormSchema = {
+  jenis_penghasilan: string;
+  uraian_kegiatan: string;
+  no_pengajuan: string;
+  target_penerima: string;
+  nama_penerima: string;
+  nama_bank: string;
+  no_rekening: string;
+  nama_rekening: string;
+  npwp: string;
+  kode_objek_pajak: string;
+  penghasilan_bruto: number;
+  tarif_pajak: number;
+  potongan_pajak: number;
+  penghasilan_diterima: number;
+  pic_pencairan_penghasilan: string;
+  invoice: string;
+  faktur_pajak: string;
+  dokumen_kerjasama_kegiatan: string;
+  idl: string;
+};
+
+export type TPPh23Model = {
+  kode_kegiatan_penghasilan_badan_usaha: string;
+  jenis_penghasilan: string;
+  uraian_kegiatan: string;
+  no_pengajuan: string;
+  target_penerima: string;
+  nama_penerima: string;
+  nama_bank: string;
+  no_rekening?: string | null;
+  nama_rekening?: string | null;
+  npwp?: string | null;
+  nama_narahubung: string;
+  kode_objek_pajak: string;
+  penghasilan_bruto: number;
+  tarif_pajak: number;
+  potongan_pajak: number;
+  penghasilan_diterima: number;
+  pic_pencairan_penghasilan: string;
+  invoice: string;
+  faktur_pajak: string;
+  dokumen_kerjasama_kegiatan: string;
+  idl: string;
+  kode_jenis_pajak: number;
+  status: string;
+  tanggal_input: Date;
+};

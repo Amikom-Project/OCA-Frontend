@@ -1,0 +1,41 @@
+export type TPPh21PenerimaFormSchema = {
+  nama: string;
+  status_pegawai: string;
+  nik: string;
+  no_passport: string;
+  npwp: string;
+  nama_bank: string;
+  no_rekening: string;
+  nama_rekening: string;
+  metode_potong: string;
+  kode_objek_pajak: string;
+  penghasilan_bruto: number;
+  tarif_berlaku: number;
+  potongan_pajak: number;
+  penghasilan_diterima: number;
+  status: string;
+  idl: string;
+  penghasilan_bulanan: number;
+};
+
+export type TPPh21PenerimaModel = {
+  kode_item_kegiatan_penghasilan_orang_pribadi: string;
+  kode_kegiatan_penghasilan_orang_pribadi: string;
+  nama: string;
+  status_pegawai: string;
+  nik?: string | null;
+  no_passport?: string | null;
+  npwp?: string | null;
+  nama_bank: string;
+  no_rekening: string;
+  nama_rekening: string;
+  metode_potong: string;
+  kode_objek_pajak: string;
+  penghasilan_bruto: number;
+  tarif_berlaku: number;
+  potongan_pajak: number;
+  penghasilan_diterima: number;
+  status: string;
+  idl: string;
+  tanggal_input: Date;
+};
